@@ -1,5 +1,5 @@
 # PUBG Mobile ESP External Mod Menu
-PUBG Mobile ESP External Mod Menu project created by ANONYMOUS and KMODs. Project fixed for Android Studio support.
+PUBG Mobile ESP External Mod Menu project created by ANONYMOUS and KMODs. Project fixed for Android Studio and AIDE support.
 
 Original source (AIDE only): https://www.unknowncheats.me/forum/downloads.php?do=file&id=29826
 
