@@ -10,7 +10,7 @@ Use UE4Dumper to dump SDK: https://github.com/kp7742/UE4Dumper/
 Or get existing dumps here: https://github.com/kp7742/UE4Dumper/tree/master/SDKs
 
 # Screenshots
-![](https://i.imgur.com/ZWmEErQ.png)
+![](https://i.imgur.com/RerX1I9.png)
 
 *Taken from telegram, didn't bother testing it, but I know it works like this*
 

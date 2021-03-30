@@ -1,3 +1,6 @@
-NDK_TOOLCHAIN_VERSION := 4.9
-APP_STL := gnustl_static
-APP_ABI := armeabi-v7a x86
+APP_ABI := armeabi-v7a arm64-v8a x86
+#APP_PLATFORM := android-18 #APP_PLATFORM does not need to be set. It will automatically defaulting
+APP_STL := c++_static
+APP_OPTIM := release
+APP_THIN_ARCHIVE := true
+APP_PIE 		:= true

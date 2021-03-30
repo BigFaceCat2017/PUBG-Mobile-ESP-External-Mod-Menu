@@ -2,6 +2,7 @@
 #define STRUCTSCOMM_H
 
 #include "kmods.h"
+#include "Memory.h"
 #include <cmath>
 
 using namespace std;

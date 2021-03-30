@@ -81,10 +81,13 @@ public class MainActivity extends Activity implements OnClickListener
 	
 	public void CheckFloatViewPermission()
 	{
-		if (!Settings.canDrawOverlays(this))
+		if (Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M)
 		{
-			Toast.makeText(this,"Enable Floating Permission ",Toast.LENGTH_LONG).show();
-			startActivityForResult(new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName())), 0);
+			if (!Settings.canDrawOverlays(this))
+			{
+				Toast.makeText(this,"Enable Floating Permission ",Toast.LENGTH_LONG).show();
+				startActivityForResult(new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName())), 0);
+			}
 		}
 	}
     @Override
