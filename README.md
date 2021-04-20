@@ -3,8 +3,6 @@ PUBG Mobile ESP External Mod Menu project created by ANONYMOUS and KMODs. Projec
 
 Original source (AIDE only): https://www.unknowncheats.me/forum/downloads.php?do=file&id=29826
 
-Use UE4Dumper to dump SDK if you want to know offsets: https://github.com/kp7742/UE4Dumper/
-
 # Screenshots
 ![](https://i.imgur.com/RerX1I9.png)
 
